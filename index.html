@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix page with HTML,CSS and JAVASCRIPT</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main-container">
+        <div class="top-section">
+            <div class="logo-section">
+                <img src="https://i.ibb.co/r5krrdz/logo.png" alt="no-logo">
+                <a href="#" class="signup-btn">Sign in</a>
+            </div>
+            <div class="top-section-content">
+                <h1>See what's next</h1>
+                <p>WATCH ANYWHERE. CANCEL ANYTIME</p>
+                <a href="#" class="form-btn">WATCH FREE FOR 30 DAYS  &nbsp;<i style="font-size:3.2rem;text-align: center; color:white" class="ri-arrow-right-s-line"></i></a>
+            </div>
+        </div>
+        <div class="center-section">
+            <div class="center-tabs">
+                <div class="tab-1-heading tab-items utility-class-2" id="id-1" onclick="contentDisplay('id-1')">
+                    <i class="fa-solid fa-door-open" id="icon-color-1" style="color: white;"></i>
+                    <p>Cancel at any time</p>
+                </div>
+                <div class="tab-2-heading tab-items" id="id-2" onclick="contentDisplay('id-2')">
+                    <i class="ri-tablet-fill" id="icon-color-2"></i>
+                    <p>Watch anywhere</p>
+                </div>
+                <div class="tab-3-heading tab-items" id="id-3" onclick="contentDisplay('id-3')">
+                    <i class="ri-price-tag-3-fill" id="icon-color-3"></i>
+                    <p>Pick your price</p>
+                </div>
+            </div>
+            <div class="center-section-content">
+                <div class="center-section-tab-1-content" id='content-id-1'>
+                    <div class="center-section-tab-1-content-text">
+                        <p>If you decide Netflix isn't <br>for you - no problem. No <br>commitment. Cancel<br> online anytime.</p>
+                        <a href="#" class="form-btn">WATCH FREE FOR 30 DAYS</a>
+                    </div>
+                    <div class="center-section-tab-1-content-image">
+                        <img src="https://i.ibb.co/J2xDJV7/tab-content-1.png" alt="no-image">
+                    </div>
+                </div>
+                <div class="center-section-tab-2-content hide-class" id="content-id-2">
+                    <div class="center-section-tab-2-content-text">
+                        <p>Watch TV shows and movies anytime,anywhere-personalized for you.</p>
+                        <a href="#" class="styled-btn form-btn">WATCH FREE FOR 30 DAYS</a>
+                    </div>
+                    <div class="center-section-tab-2-content-image">
+                        <div class="center-section-tab-2-content-image-1  text-aligning">
+                            <img src="https://i.ibb.co/DpdN7Gn/tab-content-2-1.png" alt="no-image" class="common-size-image">
+                            <h2 class="heading-2">Watch on your TV</h2>
+                            <p class="para-content">Smart TVs, PlayStation, Xbox,<br> Chromcast,Apple TV,Blu-ray <br>players and more.</p>
+                        </div>
+                        <div class="center-section-tab-2-content-image-2 text-aligning">
+                            <img src="https://i.ibb.co/R3r1SPX/tab-content-2-2.png" alt="no-image" class="common-size-image">
+                            <h2 class="heading-2">Watch instantly or <br> download for later</h2>
+                            <p class="para-content">Available on phone and tablet,<br> whereever you go.</p>
+                        </div>
+                        <div class="center-section-tab-2-content-image-3 text-aligning">
+                            <img src="https://i.ibb.co/gDhnwWn/tab-content-2-3.png" alt="no-image" class="common-size-image" style="transform: translateY(-1rem);">
+                            <h2 class="heading-2" style="transform: translateY(-1.25rem);">Use any computer</h2>
+                            <p style="transform: translateY(-1rem);" class="para-content">Watch right on Netflix.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="center-section-tab-3-content hide-class" id="content-id-3">
+                    <div class="center-section-tab-3-content-text">
+                        <p>Choose one plan and watch everything on Netflix</p>
+                        <a href="#" class="styled-btn form-btn">WATCH FREE FOR 30 DAYS</a>
+                    </div>
+                    <div class="center-section-tab-3-content-table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>BASIC</th>
+                                    <th>STANDARD</th>
+                                    <th>PREMIUM</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Monthly price</td>
+                                    <td>$9.99</td>
+                                    <td>$13.99</td>
+                                    <td>$16.99</td>
+                                </tr>
+                                <tr>
+                                    <td>HD available</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Ultra HD available</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Screens you can watch on at the same time</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>Watch on your laptop,TV,phone and tablet</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Unlimited movies and TV shows</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Cancel anytime</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-section">
+            <p>Questions?call 1-800-NET-FLIX</p>
+            <div class="bottom-content">
+                <div class="bottom-content-1 all-contents">
+                    <a href="#">FAQ</a>
+                    <a href="#">Investor Relations</a>
+                    <a href="#">Ways to Watch</a>
+                    <a href="#">Corporate Information</a>
+                    <a href="#">Netflix Originals</a>
+                </div>
+                <div class="bottom-content-2 all-contents">
+                    <a href="#">Help Center</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Contact Us</a>
+                </div>
+                <div class="bottom-content-3 all-contents">
+                    <a href="#">Account</a>
+                    <a href="#">Redeem Gift Cards</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Speed Test</a>
+                </div>
+                <div class="bottom-content-4 all-contents">
+                    <a href="#">Media Center</a>
+                    <a href="#">Buy Gift Cards</a>
+                    <a href="#">Cookie Preferences</a>
+                    <a href="#">Legal Notices</a>
+                </div>
+            </div>
+        </div>
+        <div class="form-div">
+            <div class="form-content">
+                <form action="" method="post">
+                    <i class="ri-close-fill" id="cross-sign"></i>
+                    <p>Sign Up</p>
+                    <input type="email" placeholder="Enter your email id" name="mail" id="email"><br>
+                    <input type="password" placeholder="Enter your new password" name="pwd" id="pwd"><br>
+                    <input type="password" placeholder="Confirm new password" name="cpwd" id="cpwd"><br>
+                    <button type="submit">Submit</button>
+                    <p class="form-end-para">Already a User. <a href="#" class="form-end-link">Sign in</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
